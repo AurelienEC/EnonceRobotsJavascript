@@ -1,6 +1,6 @@
-# Exercice POO Swift : Les Robots
+# Exercice POO Javascript : Les Robots
 
-Nous allons construire un robot virtuel qui pourra se déplacer sur une carte et effectuer diverses actions. Pour faciliter le travail nous allons utiliser les concepts de la programmation orientée objet dans un nouveau projet **XCode**.
+Nous allons construire un robot virtuel qui pourra se déplacer sur une carte et effectuer diverses actions. Pour faciliter le travail nous allons utiliser les concepts de la programmation orientée objet dans un nouveau projet.
 
 ## 1 - Créer une Classe Robot
 
@@ -11,7 +11,7 @@ La première étape de cette exercice sera de créer une classe Robot avec les c
     * Une vitesse maximale de déplacement ( Initialisée à 3 par défaut dans le constructeur)
     * Une position, représentée par des coordonnées X et Y initialisée à (0,0) dans le constructeur
 
-Une fois la classe créée, nous pouvons générer un ou plusieurs robots basés sur ce modèle dans le fichier *main.swift* du projet. ( nous l'appelerons par la suite "le main" )
+Une fois la classe créée, nous pouvons générer un ou plusieurs robots basés sur ce modèle dans le fichier *main.js* du projet. ( nous l'appelerons par la suite "le main" )
 
 Dans le main générer un robot en y définissant uniquement son nom. Le nom sera appliqué par la méthode *init()* les autres caractéristiques seront initialisées par défaut.
 
@@ -59,7 +59,7 @@ Ajouter un second constructeur qui permet de définir, en plus du nom, les point
 
 Faire en sorte ensuite que, lors de la création des objets dans le main, ceux‐ci aient des caractéristiques  différentes de votre choix.
 
-Observer le comportement du main maintenant. Les robots se disent-­ils bien placés à des cases différentes de (0 ; 0) audépart ? Vont‐ils bien se déplacer à la nouvelle vitesse maximale qu’on leur a définie?
+Observer le comportement du main maintenant. Les robots se disent-ils bien placés à des cases différentes de (0 ; 0) audépart ? Vont‐ils bien se déplacer à la nouvelle vitesse maximale qu’on leur a définie?
 
 ## 8 - Des Robots Méchants
 Maintenant afin de donner un peu de piment dans la vie de nos Robots, nous allons donc créer des Robots pouvant infliger des dégats soit à distance soit en "corp à corp". Pour cela nous allons donc réaliser une classe "Méchant" qui a les caractéristiques suivantes :
