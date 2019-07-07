@@ -42,7 +42,8 @@ Créez 4 robots dans un Array et faites les se présenter à tour de rôle grâc
 Nos  Robots veulent maintenant se déplacer pour conquérir le monde. Créer une fonction *move* qui permet de se déplacer vers le haut, le bas, la gauche, ou la droite sur la carte, c'est à dire dans une *direction*. En plus de la direction, on doit pouvoir choisir de se déplacer de 1 au nombre maximum de cases correspondant à la vitesse maximale de déplacement du robot (3 par défaut)
 
 Retourner dans le main et faire déplacer les robots dans toutes les directions au choix. Après les avoir fait déplacer, les faire parler à nouveau pour vérifier qu'ils sont bien dans des cases aux coordonnées différentes.
-ex : robot.move("droite", 3)
+
+**Exemple**: robot.move("droite", 3)
 
 ## 6 - En mouvement brownien
 
