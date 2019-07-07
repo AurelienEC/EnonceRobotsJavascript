@@ -9,11 +9,11 @@ La première étape de cette exercice sera de créer une classe Robot avec les c
     * Un Nom
     * Des points de vie (initialisés à 100 dans le constructeur)
     * Une vitesse maximale de déplacement ( Initialisée à 3 par défaut dans le constructeur)
-    * Une position, représentée par des coordonnées X et Y initialisée à (0,0) dans le constructeur
+    * Une position, représentée par des coordonnées x et y initialisée à {x:0,y:0} dans le constructeur
 
 Une fois la classe créée, nous pouvons générer un ou plusieurs robots basés sur ce modèle dans le fichier *main.js* du projet. ( nous l'appelerons par la suite "le main" )
 
-Dans le main générer un robot en y définissant uniquement son nom. Le nom sera appliqué par la méthode *init()* les autres caractéristiques seront initialisées par défaut.
+Dans le main générer un robot en y définissant uniquement son nom. Le nom sera appliqué par le *constructor* les autres caractéristiques seront initialisées par défaut.
 
 ## 2 - Robot a un ami.
 
@@ -39,9 +39,10 @@ Créez 4 robots dans un Array et faites les se présenter à tour de rôle grâc
 
 ## 5 - Des Robots à la conquête du monde
 
-Nos  Robots veulent maintenant se déplacer pour conquérir le monde. Créer une fonction move() qui permet de se déplacer vers le haut, le bas, la gauche, ou la droite sur la carte. En plus de la direction, on doit pouvoir choisir de se déplacer de 1 au nombre maximum de cases correspondant à la vitesse maximale de déplacement du robot (3 par défaut)
+Nos  Robots veulent maintenant se déplacer pour conquérir le monde. Créer une fonction *move* qui permet de se déplacer vers le haut, le bas, la gauche, ou la droite sur la carte, c'est à dire dans une *direction*. En plus de la direction, on doit pouvoir choisir de se déplacer de 1 au nombre maximum de cases correspondant à la vitesse maximale de déplacement du robot (3 par défaut)
 
 Retourner dans le main et faire déplacer les robots dans toutes les directions au choix. Après les avoir fait déplacer, les faire parler à nouveau pour vérifier qu'ils sont bien dans des cases aux coordonnées différentes.
+ex : robot.move("droite", 3)
 
 ## 6 - En mouvement brownien
 
