@@ -43,7 +43,8 @@ Nos  Robots veulent maintenant se déplacer pour conquérir le monde. Créer une
 
 Retourner dans le main et faire déplacer les robots dans toutes les directions au choix. Après les avoir fait déplacer, les faire parler à nouveau pour vérifier qu'ils sont bien dans des cases aux coordonnées différentes.
 
-**Exemple**: robot.move("droite", 3)
+**Exemple**: robot.move("droite", 3);
+**Attention: N'oubliez pas que si on rentre par exemple robot.move("droite", 5) et que la vitesse max est de 3 je ne dois pouvoir déplacer mon robot que de 3 cases au maximum !**
 
 ## 6 - En mouvement brownien
 
