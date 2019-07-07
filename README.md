@@ -23,7 +23,7 @@ Notre robot se sent un peu seul. Ajoutez un second robot dans le main et donnez-
 
 ## 3 - Des Robots qui parlent
 
-Créer une méthode que l'on appellera *introdiuce()*. Cette méthode fait parler le robot dans la console et lui fait dire quelque chose de la forme :
+Créer une méthode que l'on appellera *introduce()*. Cette méthode fait parler le robot dans la console et lui fait dire quelque chose de la forme :
 
 *"Bonjour je m'appelle Wall-e. J'ai 100 points de vie et je me déplace à 3 cases par seconde. Je suis à la case de coordonnées (0 ; 0 ) "*
 
@@ -44,6 +44,7 @@ Nos  Robots veulent maintenant se déplacer pour conquérir le monde. Créer une
 Retourner dans le main et faire déplacer les robots dans toutes les directions au choix. Après les avoir fait déplacer, les faire parler à nouveau pour vérifier qu'ils sont bien dans des cases aux coordonnées différentes.
 
 **Exemple**: robot.move("droite", 3);
+
 **Attention: N'oubliez pas que si on rentre par exemple robot.move("droite", 5) et que la vitesse max est de 3 je ne dois pouvoir déplacer mon robot que de 3 cases au maximum !**
 
 ## 6 - En mouvement brownien
